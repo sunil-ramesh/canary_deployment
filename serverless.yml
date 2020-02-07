@@ -2,7 +2,7 @@ service: sls-canary-example
 
 provider:
   name: aws
-  runtime: nodejs12.0
+  runtime: nodejs8.10
   iamRoleStatements:
     - Effect: Allow
       Action:
